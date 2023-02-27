@@ -1,96 +1,138 @@
-body{
-  margin: 0;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align:center;
-  padding-top:90px
-}
-
-.header-right a{
-  text-decoration: none;
-}
-
-.welcome{
-  font-family:'SimSun';
-}
-
-header{
-  font-size:40px;
-  width:100%;
-  height:10%;
-  background-color: rgb(255, 255, 255);
-  padding:20px 50px;
-  box-sizing: border-box;
-  position:fixed;
-  top:0;
-  left:0;
-  align-items: center;
-}
-
-.container{
-  width:1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.top-wrapper{
-  padding: 70px 100px;
-  background-image: url(https://images.unsplash.com/photo-1653067780039-7164776c2b17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1015&q=80);
-  background-size:cover;
-  color:white;
-  text-align: center;
-}
-
-.container h1{
-  opacity: 0.8;
-  font-size: 50px;
-}
-
-.container p{
-  opacity: 0.8;
-  font-size: 20px;
-  font-family: serif;
-}
-
-.main-wrapper{
-  text-align: center;
-}
-
-.intro{
-  font: size 15px;
-}
-
-.button-wrapper{
-  margin :20px 0;
-}
-
-.button-wrapper p{
-  margin:10px 0;
-}
-
-.instagram {
-  background-color: #f17746;
-}
-
-.twitter {
-  background-color: #55acee;
-}
-
-.Youtube{
-  background-color: crimson;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
-.btn {
-  padding: 8px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
+.hero{
+    height:100vh;
+    width: 100%;
+    background-image: url(/img/DEMOCRACY..png);
+    background-size: contain;
 }
 
 
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
 
-img.vrcphoto{
-  width: 1000px;
-  height: 600px;
+span{
+    color:palevioletred;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px; 
+    background-color: rgba(23, 58, 110, 0.384);
+}
+
+.logo{
+    color: whitesmoke;
+    font: size 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'YuGothic';
+    transition: all 0.3s;
+}
+
+nav ul li a:hover{
+    color :palevioletred;
+}
+
+.btn{
+    background-color: palevioletred;
+    color:white;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    border-radius:20px;
+}
+
+.content{
+    padding-top: 200px;
+}
+
+.content .body{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 50px;
+    padding-left: 270px;
+}
+
+.content .body img{
+    height: 1000px;
+    margin-top: -170px;
+    margin-right: 100px;
+}
+
+.portfolioInfo{
+    padding-top: 200px;
+}
+
+h1{
+    color: white;
+    margin: 20px 0 20px;
+    font-size:75px;
+}
+
+h3{
+    color: white;
+    font-size : 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h4{
+    color:white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.linkList ul{
+    list-style: none;
+}
+
+.linkList h2{
+    color:White;
+    padding-left: 178px;
+}
+
+.linkList ul {
+    padding-top: 30px;
+}
+
+.linkList ul li a{
+    color: rgb(245, 185, 205);
+    display: flex;
+    padding-top: 10px;
+    font-size: 38px;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.linkList ul li a:hover{
+    color : rgb(165, 5, 66);
 }
